@@ -1,1 +1,1 @@
-full stack project
+full stack project using node, react and mongodb
