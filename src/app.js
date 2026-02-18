@@ -1,7 +1,17 @@
-import express from "express";  // commonjs syntax
-// const express = require('express') - this es6 syntax
+// npm i express(installation)
+//
+// import express from "express" 
+// const app = express()   ---> ES6 module syntax
+//
+// or
+//
+// const express = require('express')
+// const app = express()   ---> CommonJS module syntax
+
+import express from "express";
+
 
 
 const app = express();
 
-module.exports = app;
+export default app;
