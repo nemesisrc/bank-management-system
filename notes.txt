@@ -1,0 +1,13 @@
+1. INSTALLATION -
+npm i express / npm install express
+
+2. IMPORTING -
+import express from "express" 
+const app = express()   
+module.exports = app   ---> ES6 module syntax
+or
+const express = require('express')
+const app = express()   
+export default app;    ---> CommonJS module syntax
+
+3. EXPORTING -

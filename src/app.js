@@ -1,17 +1,7 @@
-// npm i express(installation)
-//
-// import express from "express" 
-// const app = express()   ---> ES6 module syntax
-//
-// or
-//
-// const express = require('express')
-// const app = express()   ---> CommonJS module syntax
+//server instance creation and server config(we do not run server with app.js file)
 
-import express from "express";
-
-
+const express = require('express')
 
 const app = express();
 
-export default app;
+module.exports = app;
